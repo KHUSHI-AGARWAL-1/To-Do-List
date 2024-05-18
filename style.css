@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Poppins:ital,wght@1,500&family=Ysabeau+Infant:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://th.bing.com/th/id/OIP.drwpYyaC8I8tVYupZjC5bQHaEK?pid=ImgDet&rs=1');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#box{
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#container{
+    /* border: 2px solid rgb(213, 27, 27); */
+    background-color: rgba(0, 0, 0, 0.245);
+    padding: 20px;
+    border-radius: 25px;
+    /* height: 400px; */
+}
+form{
+    /* height: 40px;
+    width: 300px; */
+    /* padding:15px; */
+  border: 2px solid rgba(130, 131, 133, 0.53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 26px;
+    font-style: italic;
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px 0px rgba(37, 36, 36, 0.742);
+}
+input{
+    /* margin:  auto 200px; */
+    padding: 10px;
+    color: white;
+     font-size: 20px;
+    border:none;
+    outline: none;
+    background-color: rgba(2, 33, 52, 0.4);
+  border-radius: 15px;
+  border-bottom: 3px solid #0e0e0d;
+  box-shadow: 3px 3px 5px 0px rgba(37, 36, 36, 0.742);
+}
+input:focus{
+    background-color: #0e0e0d;
+    border-bottom-color: #dce2e9 ;
+}
+form button{
+    width: 50px;
+    margin-left:5px;
+    height:50px;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 10px;
+    border: none;
+    background-color: #003459;
+    color: white;
+     box-shadow: 3px 3px 5px 0px rgba(37, 36, 36, 0.742)
+}
+h1{
+    text-align: center;
+font-size:45px;
+  text-shadow: 0 3px rgba(242, 238, 242, 0.635);;
+font-style: italic;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:#002855;
+}
+li{
+    margin:25px 25px;
+    font-size: 20px;
+    /* padding: 0px; */
+    font-weight: 500;
+    color: #dce2e9;
+   /* list-style:none; */
+   font-family: 'Ysabeau Infant', sans-serif;
+
+}
+
+
+li button{
+    width: 35px;
+    border-radius: 5px;
+    height:30px;
+    border: none;
+
+    font-size: 20px;
+    /* font-weight:bold; */
+    
+    border: none;
+    background-color: white ;
+    color:#003459;
+    position: absolute;
+    left: 890px;
+
+}
+li button:hover{
+    background-color: #003459;
+    color: white;
+}
